@@ -1,50 +1,46 @@
+/******************************
+          BASE
+******************************/
 html {
   height: 100%;
   font-size: 16px;
 }
 body {
-  background: #2c3e50;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  line-height: 1.7;
+  height: 100%;
   margin: 0;
   padding: 0;
-  height: 100%;
+  background: #0B1825;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.7;
+  color: #fff;
 }
 
-h1 {
-  font-size: 2.5em;
-  font-weight: bold;
-  margin: 0 0 15px;
-  padding: 0;
+a {
+  color: #fff;
 }
-p {
-  font-size: 1rem;
+h2 {
+  font-size: 1.4rem;
 }
- 
-
-
 
 /******************************
           LAYOUT
 ******************************/
 .space {
-  background: #2c3e50;
   height: 100%;
+  margin-top: 50px;
 }
 .ISS {
   width: 500px;
-  padding: 20px;
-  color: white;
+  box-sizing: border-box;
   margin: 0 auto;
-  background: #2c3e50;
   text-align: center;
 }
 .ISS img {
-  width: 400px;
-  border: 30px solid #c0c0c0;
+  height: 500px;
+  width: 500px;
   border-radius: 100%;
 }
-h1 {
-  text-align: center;
+.latlong {
+  font-size: 0.75rem;
+  margin-bottom: 0;
 }
